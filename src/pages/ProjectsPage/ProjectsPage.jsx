@@ -3,16 +3,23 @@ import React from 'react'
 
 const projects = [
     {
-        title: 'Pokémon Team Analyzer',
-        dateRange: 'Jan. 2025 - present',
+        title: 'Fish Tank Sim',
+        dateRange: 'Apr. 2026 - present',
         description:
-            'A web app in the making that helps users analyze and improve their Pokémon team builds. Currently in the design phase using Figma, with plans to implement real-time analysis of team strengths, weaknesses, and suggestions for improvements.',
-        isHosted: false,
-        skills: ['React', 'Next.js', 'Figma', 'UI/UX Design'],
+            'Fish Tank Sim lets users draw their own fish and release them into a shared, living tank. Built with a canvas-based frontend and a Spring Boot + AWS backend, it is designed from the ground up to support real-time multiplayer — so every fish in the water belongs to a real person.',
+        skills: [
+            'JavaScript',
+            'HTML',
+            'Java',
+            'Spring Boot',
+            'Maven',
+            'AWS',
+            'Docker',
+        ],
     },
     {
         title: 'Spott',
-        dateRange: 'Jan. 2025 - Jan. 2025',
+        dateRange: 'Jan. 2026',
         description:
             'An event management web app made with Next.js, Convex, and Clerk to explore real-time databases and authentication flows. Users can search, create, and manage events and tickets, with subscriptions unlocking additional features. Built to practice integrating user accounts with a live database and managing real-time data, this project helped me learn best practices for connecting user information to Convex and handling event creation and subscriptions in a live app.',
         link: 'https://spott-jade.vercel.app/',

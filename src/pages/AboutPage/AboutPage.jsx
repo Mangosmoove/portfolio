@@ -1,34 +1,36 @@
 export const AboutPage = () => {
-    const skills = [
+    const languages = [
         'TypeScript',
         'JavaScript',
         'Python',
         'Java',
         'HTML',
         'CSS',
-        'C',
-        'C++',
     ]
 
-    const misc = [
+    const frontend = [
         'React',
         'Next.js',
         'Vite',
-        'Jest',
+        'Redux',
+        'RTKQ',
+        'Tailwind',
+        'Bootstrap',
         'React Bootstrap',
         'Shadcn/UI',
-        'Bootstrap',
-        'Tailwind',
-        'Redux',
-        'RTK Query',
-        'ARIA',
-        'REST',
-        'Redis',
-        'Convex',
-        'PostgreSQL',
-        'Elasticsearch',
-        'HighCharts',
+        'Highcharts',
+        'A11Y',
+        'React Testing Library',
         'Figma',
+    ]
+
+    const backend = [
+        'Elasticsearch',
+        'PostgreSQL',
+        'Redis',
+        'REST',
+        'Convex',
+        'pytest',
     ]
 
     return (
@@ -38,35 +40,36 @@ export const AboutPage = () => {
                     A Little About Me
                 </p>
                 <p className="body-font text-sm md:text-base">
-                    I am a full-stack engineer who thrives at the intersection
-                    of design and code. I specialize in building responsive,
-                    accessible, and scalable applications using{' '}
-                    <span className="font-bold">
-                        React, TypeScript, Next.js, Bootstrap, and ARIA
-                    </span>{' '}
-                    with professional backend experience in{' '}
-                    <span className="font-bold">Python</span>, including data
-                    querying with{' '}
-                    <span className="font-bold">Elasticsearch</span> and system
-                    monitoring via <span className="font-bold">Kibana</span>.
+                    I'm a full-stack engineer who believes good software should
+                    feel as good as it works.
                 </p>
                 <p className="body-font text-sm md:text-base">
-                    I have led development on key client- and user-facing
-                    features, collaborated directly with stakeholders (including
-                    execs and clients), and delivered high-impact UI/UX
-                    improvements on fast turnarounds. Whether it is refactoring
-                    a core layout system, optimizing performance, or translating
-                    product ideas into interactive components—I enjoy owning the
-                    stack from design to deployment.
+                    I specialize in building responsive, accessible, and
+                    scalable applications using{' '}
+                    <span className="font-bold">
+                        React, TypeScript, Next.js, Bootstrap
+                    </span>
+                    , with professional backend experience in{' '}
+                    <span className="font-bold">Python, Elasticsearch</span>,
+                    and <span className="font-bold">Kibana</span>.
+                </p>
+                <p className="body-font text-sm md:text-base">
+                    I've led development on key client and user-facing
+                    features, collaborated directly with stakeholders including
+                    executives and clients, and delivered high-impact UI/UX
+                    improvements on fast turnarounds. Whether I'm refactoring a
+                    core layout system, optimizing performance, or translating a
+                    product idea into an interactive component, I enjoy owning
+                    the stack from design to deployment.
                 </p>
                 <p className="body-font text-sm md:text-base">
                     I am driven by curiosity, clean code, and building products
                     that make people say "damn.".
                 </p>
                 <p className="body-font font-bold text-sm md:text-base">
-                    Currently open to frontend or full-stack roles at the junior
-                    to mid level, with a focus on impactful, user-centered
-                    products and clear opportunities for growth!
+                    Currently open to full stack roles, with a focus on
+                    impactful, user-centered products and clear opportunities
+                    for growth!
                 </p>
             </div>
 
@@ -76,26 +79,40 @@ export const AboutPage = () => {
                         Languages
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
-                        {skills.map((skill, index) => (
+                        {languages.map((langauge, index) => (
                             <span
                                 key={index}
                                 className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-xs md:text-sm font-medium"
                             >
-                                {skill}
+                                {langauge}
                             </span>
                         ))}
                     </div>
 
                     <p className="font-semibold mb-2 text-sm md:text-base">
-                        Misc.
+                        Frontend
                     </p>
-                    <div className="flex flex-wrap gap-2">
-                        {misc.map((m, index) => (
+                    <div className="flex flex-wrap gap-2 mb-4">
+                        {frontend.map((f, index) => (
                             <span
                                 key={index}
                                 className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-xs md:text-sm font-medium"
                             >
-                                {m}
+                                {f}
+                            </span>
+                        ))}
+                    </div>
+
+                    <p className="font-semibold mb-2 text-sm md:text-base">
+                        Backend
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                        {backend.map((b, index) => (
+                            <span
+                                key={index}
+                                className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-xs md:text-sm font-medium"
+                            >
+                                {b}
                             </span>
                         ))}
                     </div>

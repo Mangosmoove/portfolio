@@ -9,12 +9,10 @@ import {
 import React from 'react'
 
 const idnDesc = [
-    'Designed and iterated on mockups and wireframes with the CTO and CEO, aligning features with business goals and user needs.',
-    'Led frontend development in React, focusing on UI/UX, accessibility, and performance optimization.',
-    'Improved web app performance by 27% through optimized image processing.',
-    'Implemented backend-driven pagination in Python with Elasticsearch, improving scalability and retrieval of large datasets.',
-    'Spearheaded responsive UI design with Bootstrap and React Bootstrap across all screen sizes.',
-    'Maintained clear documentation for internal and external users, collaborating with the documentation team.',
+    'Engineered a performance optimization to a key image processing step, reducing user completion time by ~26%',
+    'Architected backend-driven pagination in Python using Elasticsearch, replacing frontend pagination and reducing data retrieval time by 70% (10s → 3s), unlocking scalable, high-performance retrieval of large datasets',
+    'Partnered with CTO and CEO to design and iterate on mockups and wireframes, translating executive vision into user-focused product decisions',
+    'Served as sole frontend engineer for a product with 1,000+ daily users, independently owning end-to-end development of React features with a focus on UI/UX, accessibility, and cross-device performance',
 ]
 const idnSkills = [
     'React',
@@ -34,9 +32,8 @@ const idnSkills = [
 ]
 
 const rHouseDesc = [
-    'Researched facial cues and physiological arousal during human-robot interaction to better influence behavior tree decisions',
-    "Crafted and implemented original human-robot activities that incorporate Honda Research Institute's tabletop robot for older adults with dementia and preschoolers",
-    'Prototyped and coded Crunchy, the robot movie companion, for HRI Student Competition in 2021 and was awarded the Best Student Design Competition CREATIVITY Award',
+    'Prototyped and coded Crunchy, a robot movie companion for the 2021 HRI Student Competition, earning the Best Student Design Competition Creativity Award',
+    'Designed NFC-enabled interactive activities for preschoolers and older adults, using behavior tree logic to trigger dynamic robot responses based on physiological engagement data',
 ]
 const rHouseSkills = [
     'Human-Robot Interaction',
@@ -50,7 +47,7 @@ const rHouseSkills = [
 
 const reltDesc = [
     'Owned end-to-end delivery of a new modal feature, including design, implementation, and deployment, using TypeScript, and shipped the feature to production within one week',
-    'Engineered an accessible, reusable NuGet package with JUnit tests to streamline query creation and improve reliability of data collection from New Relic dashboards',
+    'Engineered an accessible, reusable NuGet package with JUnit tests to streamline query creation from New Relic dashboards',
 ]
 const reltSkills = [
     'TypeScript',
@@ -62,9 +59,8 @@ const reltSkills = [
 ]
 
 const cwitDesc = [
-    'Assisted in creating foundation for brand new team through marketing and networking with other college organizations',
-    'Constructed well-versed resource guide to assist community in becoming familiarized with artificial intelligence and its uses',
-    'Orchestrated and led various educational events relating to artificial intelligence and ethics in technology to promote awareness and understanding of existing technologies and benefits and issues',
+    'Authored an AI resource guide adopted as the team&apos;s foundational reference and published on the organization&apos;s website for broader community access',
+    'Led educational events on AI ethics and real-world applications, hosting industry speakers from companies like Meta',
 ]
 const cwitSkills = ['Trello', 'Leadership', 'Public Speaking']
 const experiences = [
