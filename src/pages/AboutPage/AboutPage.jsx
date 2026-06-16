@@ -25,10 +25,12 @@ export const AboutPage = () => {
     ]
 
     const backend = [
+        'Node.js',
+        'Spring Boot',
         'Elasticsearch',
         'PostgreSQL',
         'Redis',
-        'REST',
+        'RESTful APIs',
         'Convex',
         'pytest',
     ]
@@ -54,22 +56,22 @@ export const AboutPage = () => {
                     and <span className="font-bold">Kibana</span>.
                 </p>
                 <p className="body-font text-sm md:text-base">
-                    I've led development on key client and user-facing
-                    features, collaborated directly with stakeholders including
-                    executives and clients, and delivered high-impact UI/UX
-                    improvements on fast turnarounds. Whether I'm refactoring a
-                    core layout system, optimizing performance, or translating a
-                    product idea into an interactive component, I enjoy owning
-                    the stack from design to deployment.
+                    I've led development on key client and user-facing features,
+                    collaborated directly with stakeholders including executives
+                    and clients, and delivered high-impact UI/UX improvements on
+                    fast turnarounds. Whether I'm refactoring a core layout
+                    system, optimizing performance, or translating a product
+                    idea into an interactive component, I enjoy owning the stack
+                    from design to deployment.
                 </p>
                 <p className="body-font text-sm md:text-base">
                     I am driven by curiosity, clean code, and building products
                     that make people say "damn.".
                 </p>
                 <p className="body-font font-bold text-sm md:text-base">
-                    Currently open to full stack roles, with a focus on
-                    impactful, user-centered products and clear opportunities
-                    for growth!
+                    Currently open to full stack, backend, or frontend roles,
+                    with a focus on impactful, user-centered products and clear
+                    opportunities for growth!
                 </p>
             </div>
 
