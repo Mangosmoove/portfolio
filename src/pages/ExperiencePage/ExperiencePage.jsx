@@ -8,6 +8,14 @@ import {
 } from '@/components/ui/carousel'
 import React from 'react'
 
+const overtureDesc = [
+    'Onboarding; developing AI literacy curriculum for K-8 students'
+];
+
+const overtureSkills = [
+    'Teaching'
+]
+
 const idnDesc = [
     'Engineered a performance optimization to a key image processing step, reducing user completion time by ~26%',
     'Architected backend-driven pagination in Python using Elasticsearch, replacing frontend pagination and reducing data retrieval time by 70% (10s → 3s), unlocking scalable, high-performance retrieval of large datasets',
@@ -17,6 +25,7 @@ const idnDesc = [
 const idnSkills = [
     'React',
     'Next.js',
+    'Node.js',
     'Vite',
     'SCSS',
     'HTML',
@@ -47,13 +56,13 @@ const rHouseSkills = [
 
 const reltDesc = [
     'Owned end-to-end delivery of a new modal feature, including design, implementation, and deployment, using TypeScript, and shipped the feature to production within one week',
-    'Engineered an accessible, reusable NuGet package with JUnit tests to streamline query creation from New Relic dashboards',
+    'Engineered a reusable C# library with unit test coverage to streamline querying from New Relic dashboards across internal projects'
 ]
 const reltSkills = [
     'TypeScript',
     'HTML',
     'CSS',
-    'Python',
+    'C#',
     'NuGet',
     'New Relic Dashboard',
 ]
@@ -65,10 +74,20 @@ const cwitDesc = [
 const cwitSkills = ['Trello', 'Leadership', 'Public Speaking']
 const experiences = [
     {
+        role: 'AI Literacy Lead',
+        company: 'Overture',
+        time: 'Jul. 2026 - present',
+        location: 'Chicago, IL',
+        jobType: 'Part-time',
+        description: overtureDesc,
+        skills: overtureSkills,
+    },
+    {
         role: 'Full Stack Developer',
         company: 'Intellicheck',
         time: 'Aug. 2023 - July 2025',
         location: 'Remote',
+        jobType: 'Full-time',
         description: idnDesc,
         skills: idnSkills,
     },
@@ -77,6 +96,7 @@ const experiences = [
         company: 'Robot House HRI Lab',
         time: 'Jun. 2020 - July 2023',
         location: 'Bloomington, IN',
+        jobType: 'Part-time',
         description: rHouseDesc,
         skills: rHouseSkills,
     },
@@ -85,6 +105,7 @@ const experiences = [
         company: 'Relativity',
         time: 'May 2022 - Aug. 2022',
         location: 'Remote',
+        jobType: 'Full-time',
         description: reltDesc,
         skills: reltSkills,
     },
@@ -93,6 +114,7 @@ const experiences = [
         company: 'Center of Excellence for Women & Technology',
         time: 'Aug. 2021 - May 2022',
         location: 'Bloomington, IN',
+        jobType: 'Part-time',
         description: cwitDesc,
         skills: cwitSkills,
     },
@@ -122,6 +144,7 @@ const ExperiencePage = () => {
                                         company={exp.company}
                                         time={exp.time}
                                         location={exp.location}
+                                        jobType={exp.jobType}
                                         description={exp.description}
                                         skills={exp.skills}
                                     />
