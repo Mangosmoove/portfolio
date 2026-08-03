@@ -9,12 +9,10 @@ import {
 import React from 'react'
 
 const overtureDesc = [
-    'Onboarding; developing AI literacy curriculum for K-8 students'
-];
-
-const overtureSkills = [
-    'Teaching'
+    'Onboarding; developing AI literacy curriculum for K-8 students',
 ]
+
+const overtureSkills = ['Teaching']
 
 const idnDesc = [
     'Engineered a performance optimization to a key image processing step, reducing user completion time by ~26%',
@@ -56,7 +54,7 @@ const rHouseSkills = [
 
 const reltDesc = [
     'Owned end-to-end delivery of a new modal feature, including design, implementation, and deployment, using TypeScript, and shipped the feature to production within one week',
-    'Engineered a reusable C# library with unit test coverage to streamline querying from New Relic dashboards across internal projects'
+    'Engineered a reusable C# library with unit test coverage to streamline querying from New Relic dashboards across internal projects',
 ]
 const reltSkills = [
     'TypeScript',

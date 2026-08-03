@@ -1,7 +1,15 @@
 import React from 'react'
 import SkillsBadge from '../SkillsBadge/SkillsBadge'
 
-const JobCard = ({ role, company, location, jobType, time, description, skills }) => {
+const JobCard = ({
+    role,
+    company,
+    location,
+    jobType,
+    time,
+    description,
+    skills,
+}) => {
     return (
         <div className="border border-pink-500 bg-pink-100 rounded-xl min-h-150 p-6">
             <h3 className="text-center md:text-start text-md md:text-2xl font-semibold mb-2 header-font">
