@@ -9,22 +9,25 @@ import {
 import React from 'react'
 
 const overtureDesc = [
-    'Onboarding; developing AI literacy curriculum for K-8 students',
+    "Taught AI fundamentals to 6 elementary students (3rd–4th grade) using an org-provided slide curriculum, covering prompt-writing through detail-based instruction, with 100% of students independently writing prompts by lesson's end",
 ]
 
 const overtureSkills = ['Teaching']
 
 const idnDesc = [
-    'Engineered a performance optimization to a key image processing step, reducing user completion time by ~26%',
-    'Architected backend-driven pagination in Python using Elasticsearch, replacing frontend pagination and reducing data retrieval time by 70% (10s → 3s), unlocking scalable, high-performance retrieval of large datasets',
-    'Partnered with CTO and CEO to design and iterate on mockups and wireframes, translating executive vision into user-focused product decisions',
-    'Served as sole frontend engineer for a product with 1,000+ daily users, independently owning end-to-end development of React features with a focus on UI/UX, accessibility, and cross-device performance',
+    "Redesigned backend pagination to fix a reported table-loading slowdown, using Elasticsearch's point-in-time search with role-based PII controls, cutting retrieval latency 10s→3s (70% improvement)",
+    'Eliminated a redundant image-conversion step causing ID-scanning delays, identified through a nested-loop performance trace, reducing total user time in the app by 26%',
+    'Led two production UI redesigns with the CTO and CEO, translating a sketch and a Figma design into shipped features, improving usability and fixing existing broken filters',
+    'Built a React-based frontend client-mapping system supporting per-tenant customization of colors, fonts, layouts, and client flows, enabling reusable branding across customer configurations',
+    'Extended ARIA accessibility platform-wide from a single major client request, implementing screen-reader alerts and running contrast-checking, achieving compliance across all client-branded flows with zero client-facing accessibility issues',
 ]
+
 const idnSkills = [
     'React',
     'Next.js',
     'Node.js',
     'Vite',
+    'Python',
     'SCSS',
     'HTML',
     'CSS',
@@ -32,10 +35,8 @@ const idnSkills = [
     'TypeScript',
     'RTK Query',
     'Redux',
-    'Python',
     'Elasticsearch',
     'Kibana',
-    'Docker',
 ]
 
 const rHouseDesc = [
@@ -53,8 +54,8 @@ const rHouseSkills = [
 ]
 
 const reltDesc = [
-    'Owned end-to-end delivery of a new modal feature, including design, implementation, and deployment, using TypeScript, and shipped the feature to production within one week',
-    'Engineered a reusable C# library with unit test coverage to streamline querying from New Relic dashboards across internal projects',
+    'Implemented a frontend modal in TypeScript from a provided design to replace a manual job-kill process, delivered in 1 week',
+    'Built a C# NuGet package with unit test coverage replacing manual New Relic dashboard querying, providing reusable querying capability org-wide',
 ]
 const reltSkills = [
     'TypeScript',
