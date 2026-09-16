@@ -3,20 +3,23 @@ import React from 'react'
 
 const projects = [
     {
-        title: 'AI Resume Scorer',
-        dateRange: 'Jun. 2026 - present',
+        title: 'BeatTheBot',
+        dateRange: 'Jun. 2026 - Aug. 2026',
         description:
             "An AI-powered resume scoring app built with Spring Boot and React to explore LLM integration and file parsing in a full-stack context. Users can upload a resume and paste a job description to receive an AI-generated match score and feedback, with all the heavy lifting handled server-side via Groq's API and Apache Tika. Built to practice connecting a React frontend to a Spring Boot backend, this project helped me learn how to work with multipart form data, extract text from uploaded files, get hands-on experience with Spring, and integrate an OpenAI-compatible LLM into a real application.",
         skills: [
             'React',
+            'Material UI',
             'Java',
             'Spring Boot',
+            'PostgreSQL',
             'Maven',
             'Groq',
             'Apache Tika',
             'Docker',
         ],
-        link: 'https://github.com/Mangosmoove/AI-Resume-Scorer',
+        isHosted: true,
+        link: 'https://beat-the-bot-gray.vercel.app/',
     },
     {
         title: 'Spott',
