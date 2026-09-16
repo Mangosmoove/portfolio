@@ -1,12 +1,5 @@
 export const AboutPage = () => {
-    const languages = [
-        'TypeScript',
-        'JavaScript',
-        'Python',
-        'Java',
-        'HTML',
-        'CSS',
-    ]
+    const languages = ['TypeScript', 'JavaScript', 'Python', 'Java']
 
     const frontend = [
         'React',
@@ -22,6 +15,8 @@ export const AboutPage = () => {
         'A11Y',
         'React Testing Library',
         'Figma',
+        'HTML',
+        'CSS',
     ]
 
     const backend = [
@@ -31,9 +26,10 @@ export const AboutPage = () => {
         'PostgreSQL',
         'Redis',
         'RESTful APIs',
-        'Convex',
         'pytest',
     ]
+
+    const inProgress = ['Go', 'AWS Solutions Architect - Associate']
 
     return (
         <>
@@ -108,8 +104,22 @@ export const AboutPage = () => {
                     <p className="font-semibold mb-2 text-sm md:text-base">
                         Backend
                     </p>
-                    <div className="flex flex-wrap gap-2">
+                    <div className="flex flex-wrap gap-2 mb-4">
                         {backend.map((b, index) => (
+                            <span
+                                key={index}
+                                className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-xs md:text-sm font-medium"
+                            >
+                                {b}
+                            </span>
+                        ))}
+                    </div>
+
+                    <p className="font-semibold mb-2 text-sm md:text-base">
+                        In Progress
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                        {inProgress.map((b, index) => (
                             <span
                                 key={index}
                                 className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-xs md:text-sm font-medium"
